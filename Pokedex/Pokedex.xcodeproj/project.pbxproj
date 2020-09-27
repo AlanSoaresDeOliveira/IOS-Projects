@@ -63,12 +63,12 @@
 				E7FD126A251E599C00E5AD9F /* AppDelegate.swift */,
 				E7FD126C251E599C00E5AD9F /* SceneDelegate.swift */,
 				E7FD126E251E599C00E5AD9F /* ViewController.swift */,
+				E7FD1282251E6E1D00E5AD9F /* PokemonViewController.swift */,
 				E7FD1270251E599C00E5AD9F /* Main.storyboard */,
 				E7FD1273251E599D00E5AD9F /* Assets.xcassets */,
 				E7FD1275251E599D00E5AD9F /* LaunchScreen.storyboard */,
 				E7FD1278251E599D00E5AD9F /* Info.plist */,
 				E7FD1280251E650B00E5AD9F /* Pokemon.swift */,
-				E7FD1282251E6E1D00E5AD9F /* PokemonViewController.swift */,
 			);
 			path = Pokedex;
 			sourceTree = "<group>";

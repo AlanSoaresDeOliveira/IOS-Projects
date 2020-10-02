@@ -24,6 +24,14 @@
                                     <action selector="showAlert" destination="BYZ-38-t0r" eventType="touchUpInside" id="okK-cI-bAd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4L-Ha-zEl">
+                                <rect key="frame" x="321" y="230" width="94" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Knock, Knock"/>
+                                <connections>
+                                    <action selector="knockKnock" destination="BYZ-38-t0r" eventType="touchUpInside" id="9wd-Rd-4NV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -31,7 +39,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-210" y="119"/>
+            <point key="canvasLocation" x="-149" y="114"/>
         </scene>
     </scenes>
     <resources>

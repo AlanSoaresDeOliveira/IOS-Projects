@@ -25,16 +25,21 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showAlert() {
-        let message = "The value of the slider is now: \(currentValue)" +
-            "\nThe Target value is: \(targetValue)"
+        let diferrence = differenceTargetSlicer()
         
-        let alert = UIAlertController(title: "\(currentValue)", message: message, preferredStyle: .alert)
+        let message = "The value of the slider is now: \(currentValue)" +
+            "\nThe Target value is: \(targetValue)" +
+            "\nThe difference is: \(diferrence)"
+        
+        let alert = UIAlertController(title: "\(diferrence)", message: message, preferredStyle: .alert)
         
         let action = UIAlertAction(title: "OK", style: .default, handler: nil)
         
         alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
+        
+        
         
         startNewRound()
     }
@@ -51,11 +56,27 @@ class ViewController: UIViewController {
         upadateLabels()
     }
     
-    func upadateLabels( ) {
+    func upadateLabels() {
         targetLabel.text = String(targetValue)
     }
     
-
-
+    func differenceTargetSlicer() -> Int {
+        let difference = targetValue - currentValue
+        
+        if difference.signum() == -1 {
+            return difference * -1
+        } else if difference.signum() == 1 {
+            return difference
+        } else {
+            return 0
+        }
+//        if targetValue > currentValue {
+//            return targetValue - currentValue
+//        } else if targetValue < currentValue {
+//            return currentValue - targetValue
+//        } else {
+//            return 0
+//        }
+    }
 }
 

@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         let roundedValue = Int(slider.value.rounded())
         currentValue = roundedValue
-        startNewRound()
+        startNewGame()
         
     }
     
@@ -57,28 +57,18 @@ class ViewController: UIViewController {
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
-        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        let action = UIAlertAction(title: "OK", style: .default, handler: { action in
+            self.startNewRound()
+        })
         
         alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
-        
-        
-                        
-        startNewRound()
     }
     
     @IBAction func sliderMoved(_ slider: UISlider) {
         let roundedValue = Int(slider.value.rounded())
         currentValue = roundedValue
-    }
-    
-    @IBAction func startOver() {
-        currentValue = 0
-        score = 0
-        round = 0
-        scoreLabel.text = String(0)
-        roundLabel.text = String(0)
     }
     
     func startNewRound() {
@@ -89,10 +79,18 @@ class ViewController: UIViewController {
         upadateLabels()
     }
     
-    func upadateLabels() {
+    func upadateLabels() { 
         targetLabel.text = String(targetValue)
         scoreLabel.text = String(score)
         roundLabel.text = String(round)
+    }
+    
+    @IBAction func startNewGame() {
+        score = 0
+        round = 0
+        startNewRound()
+        //        scoreLabel.text = String(0)
+//        roundLabel.text = String(0)
     }
         
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E72D9B51252A637600746933 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72D9B50252A637600746933 /* AboutAuthorViewController.swift */; };
+		E72D9B54252A644A00746933 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72D9B53252A644A00746933 /* AboutViewController.swift */; };
 		E775FF6825279B2800A33090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E775FF6725279B2800A33090 /* AppDelegate.swift */; };
 		E775FF6A25279B2800A33090 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E775FF6925279B2800A33090 /* SceneDelegate.swift */; };
 		E775FF6C25279B2800A33090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E775FF6B25279B2800A33090 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E72D9B50252A637600746933 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
+		E72D9B53252A644A00746933 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		E775FF6425279B2700A33090 /* BullsEyeUiKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEyeUiKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E775FF6725279B2800A33090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E775FF6925279B2800A33090 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				E775FF6925279B2800A33090 /* SceneDelegate.swift */,
 				E775FF6B25279B2800A33090 /* ViewController.swift */,
 				E775FF6D25279B2800A33090 /* Main.storyboard */,
+				E72D9B53252A644A00746933 /* AboutViewController.swift */,
+				E72D9B50252A637600746933 /* AboutAuthorViewController.swift */,
 				E775FF7025279B2800A33090 /* Assets.xcassets */,
 				E775FF7225279B2800A33090 /* LaunchScreen.storyboard */,
 				E775FF7525279B2800A33090 /* Info.plist */,
@@ -140,6 +146,8 @@
 				E775FF6C25279B2800A33090 /* ViewController.swift in Sources */,
 				E775FF6825279B2800A33090 /* AppDelegate.swift in Sources */,
 				E775FF6A25279B2800A33090 /* SceneDelegate.swift in Sources */,
+				E72D9B54252A644A00746933 /* AboutViewController.swift in Sources */,
+				E72D9B51252A637600746933 /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

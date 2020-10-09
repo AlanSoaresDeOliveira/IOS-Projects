@@ -34,7 +34,7 @@ struct ContentView: View {
             // Button row
             Button(action: {
                 self.alertIsVisible = true
-                self.score += self.pointsForCurrentRound()
+                
             }) {
                 Text("Hit me!")
             }
@@ -45,9 +45,13 @@ struct ContentView: View {
                     return Alert(title: Text("Hello There!"), message: Text(
                         "This slider's value is \(sliderValueRounded()).\n" +
                             "You scored \(pointsForCurrentRound()) points this round"
-                         ), dismissButton: .default(Text("Awesome!")))
+                    ), dismissButton: .default(Text("Awesome!")) {
+                        self.score += self.pointsForCurrentRound()
+                        self.target = Int.random(in: 1...100)
+                    })
                     
                 }
+            
             Spacer()
             // Score row
             HStack {
@@ -73,7 +77,7 @@ struct ContentView: View {
     }
     
     func pointsForCurrentRound() -> Int {
-        100 - abs(target - sliderValueRounded())
+        return 100 - abs(target - sliderValueRounded())
     }
     
 }

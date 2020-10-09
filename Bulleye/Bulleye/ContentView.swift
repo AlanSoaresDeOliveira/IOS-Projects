@@ -12,6 +12,7 @@ struct ContentView: View {
     @State var alertIsVisible = false
     @State var sliderValue = 50.0
     @State var target = Int.random(in: 1...100)
+    @State var score = 0
     
     var body: some View {
         
@@ -32,7 +33,8 @@ struct ContentView: View {
             Spacer()
             // Button row
             Button(action: {
-                alertIsVisible = true
+                self.alertIsVisible = true
+                self.score += self.pointsForCurrentRound()
             }) {
                 Text("Hit me!")
             }
@@ -54,7 +56,7 @@ struct ContentView: View {
                 }
                 Spacer()
                 Text("Score:")
-                Text("999999")
+                Text("\(score)")
                 Spacer()
                 Text("Round:")
                 Text("999")
@@ -73,7 +75,6 @@ struct ContentView: View {
     func pointsForCurrentRound() -> Int {
         100 - abs(target - sliderValueRounded())
     }
-    
     
 }
 

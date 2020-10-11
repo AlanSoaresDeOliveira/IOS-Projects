@@ -15,6 +15,31 @@ struct ContentView: View {
     @State var score = 0
     @State var round = 1
     
+    struct Labelstyle: ViewModifier {
+        func body(content: Content) -> some View {
+            return content
+                .font(Font.custom("Arial Rounded MT Bold", size: 18))
+                .foregroundColor(Color.white)
+                .modifier(Shadow())
+        }
+    }
+    
+    struct ValueStyle: ViewModifier {
+        func body(content: Content) -> some View {
+            return content
+                .font(Font.custom("Arial Rounded MT Bold", size: 24))
+                .foregroundColor(Color.yellow)
+                .modifier(Shadow())
+        }
+    }
+    
+    struct Shadow: ViewModifier {
+        func body(content: Content) -> some View {
+            return content
+                .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 5, x: 2, y: 2)
+        }
+    }
+    
     var body: some View {
         
         VStack {
@@ -22,15 +47,16 @@ struct ContentView: View {
             // Target row
             Spacer()
             HStack {
-                Text("Put the bullseye as close as you can to:")
-                Text("\(self.target)")
+                Text("Put the bullseye as close as you can to:").modifier(Labelstyle())
+                    
+                Text("\(self.target)").modifier(ValueStyle())
             }
             Spacer()
             // Slider row
             HStack {
-                Text("1")
+                Text("1").modifier(Labelstyle())
                 Slider(value: $sliderValue, in: 1...100)
-                Text("100")
+                Text("100").modifier(Labelstyle())
             }
             Spacer()
             // Button row
@@ -65,11 +91,11 @@ struct ContentView: View {
                     Text("Start over")
                 }
                 Spacer()
-                Text("Score:")
-                Text("\(score):")
+                Text("Score:").modifier(Labelstyle())
+                Text("\(score)").modifier(ValueStyle())
                 Spacer()
-                Text("Round:")
-                Text("\(round)")
+                Text("Round:").modifier(Labelstyle())
+                Text("\(round)").modifier(ValueStyle())
                 Spacer()
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                     Text("Info")

@@ -18,6 +18,7 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
+            
             // Target row
             Spacer()
             HStack {
@@ -75,6 +76,7 @@ struct ContentView: View {
                 })
             }.padding(.bottom, 30)
         }
+        .background(Image("Background"), alignment: .center)
     }
     
     func sliderValueRounded() -> Int {

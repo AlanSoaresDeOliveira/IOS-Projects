@@ -12,12 +12,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var favoriteDayTextField: UITextField!
     
     let days = [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Saturday",
-        "Sunday"
+        (value: 0 ,name: "Monday"),
+        (value: 1 ,name: "Tuesday"),
+        (value: 2 ,name: "Wednesday"),
+        (value: 3 ,name: "Thursday"),
+        (value: 4 ,name: "Saturday"),
+        (value: 5 ,name: "Sunday")
     ]
     
     var selectedDay: String?
@@ -26,7 +26,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         createDayPicker()
         createToolbar()
-        // Do any additional setup after loading the view.
+        
+        // Customizations
     }
     
     func createDayPicker() {
@@ -34,11 +35,17 @@ class ViewController: UIViewController {
         dayPicker.delegate = self
         
         favoriteDayTextField.inputView = dayPicker
+        
+        dayPicker.backgroundColor = .black
     }
     
     func createToolbar() {
         let toolBar = UIToolbar()
         toolBar.sizeToFit()
+        
+        //Customizations
+        toolBar.barTintColor = .black
+        toolBar.tintColor = .white
         
         let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(ViewController.dismissKeyboard))
         
@@ -64,12 +71,30 @@ extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return days[row]
+        return days[row].name
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        selectedDay = days[row]
+        selectedDay = days[row].name
         favoriteDayTextField.text = selectedDay
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
+        var label: UILabel
+        
+        if let view = view as? UILabel {
+            label = view
+        } else {
+            label = UILabel()
+        }
+        
+        label.textColor = .white
+        label.textAlignment = .center
+        label.font = UIFont(name: "Menlo-Regular", size: 17)
+        
+        label.text = days[row].name
+        
+        return label
     }
     
     

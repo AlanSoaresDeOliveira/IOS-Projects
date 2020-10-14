@@ -10,6 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var favoriteDayTextField: UITextField!
+    @IBOutlet weak var daySelectedTextField: UILabel!
+    
+    var daySelected: String?
     
     let days = [
         (value: 0 ,name: "Monday"),
@@ -77,6 +80,7 @@ extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         selectedDay = days[row].name
         favoriteDayTextField.text = selectedDay
+        daySelectedTextField.text = selectedDay
     }
     
     func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {

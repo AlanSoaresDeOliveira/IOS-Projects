@@ -7,5 +7,5 @@
 
 struct Task {
     var name: String
-    var completed: = false
+    var completed = false
 }

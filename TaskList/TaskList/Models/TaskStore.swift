@@ -17,6 +17,6 @@ class TaskStore {
         "Learn to make baklava",
         "Play disc golf in every state",
         "100 movie reboot marathon"
-    ].map { Task(name: $0)}
+].map { Task(name: $0)}
     
 }

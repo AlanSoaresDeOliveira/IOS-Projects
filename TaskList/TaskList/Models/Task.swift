@@ -5,4 +5,7 @@
 //  Created by Alan Soares on 17/10/20.
 //
 
-import Foundation
+struct Task {
+    var name: String
+    var completed: = false
+}

@@ -14,6 +14,7 @@
 		E77DA69C253B2FB40041A258 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77DA69B253B2FB40041A258 /* Preview Assets.xcassets */; };
 		E77DA69F253B2FB40041A258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77DA69D253B2FB40041A258 /* LaunchScreen.storyboard */; };
 		E77DA6A8253B30580041A258 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77DA6A7253B30580041A258 /* Task.swift */; };
+		E77DA6AE253B318C0041A258 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77DA6AD253B318C0041A258 /* TaskStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E77DA69E253B2FB40041A258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E77DA6A0253B2FB40041A258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77DA6A7253B30580041A258 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E77DA6AD253B318C0041A258 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,6 @@
 		E77DA686253B2FB30041A258 = {
 			isa = PBXGroup;
 			children = (
-				E77DA6A7253B30580041A258 /* Task.swift */,
 				E77DA691253B2FB30041A258 /* TaskList */,
 				E77DA690253B2FB30041A258 /* Products */,
 			);
@@ -62,6 +63,7 @@
 				E77DA692253B2FB30041A258 /* AppDelegate.swift */,
 				E77DA694253B2FB30041A258 /* SceneDelegate.swift */,
 				E77DA696253B2FB30041A258 /* ContentView.swift */,
+				E77DA6AB253B30F70041A258 /* Models */,
 				E77DA698253B2FB40041A258 /* Assets.xcassets */,
 				E77DA69D253B2FB40041A258 /* LaunchScreen.storyboard */,
 				E77DA6A0253B2FB40041A258 /* Info.plist */,
@@ -76,6 +78,15 @@
 				E77DA69B253B2FB40041A258 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E77DA6AB253B30F70041A258 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E77DA6A7253B30580041A258 /* Task.swift */,
+				E77DA6AD253B318C0041A258 /* TaskStore.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77DA6AE253B318C0041A258 /* TaskStore.swift in Sources */,
 				E77DA6A8253B30580041A258 /* Task.swift in Sources */,
 				E77DA693253B2FB30041A258 /* AppDelegate.swift in Sources */,
 				E77DA695253B2FB30041A258 /* SceneDelegate.swift in Sources */,

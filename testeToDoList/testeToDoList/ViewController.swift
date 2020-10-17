@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         dayPicker.delegate = self
         
         favoriteDayTextField.inputView = dayPicker
+//        daySelectedTextField = dayPicker
         
         dayPicker.backgroundColor = .black
     }
@@ -56,6 +57,7 @@ class ViewController: UIViewController {
         toolBar.isUserInteractionEnabled = true
         
         favoriteDayTextField.inputAccessoryView = toolBar
+//        daySelectedTextField.inputAccessoryView = toolBar
     }
     
     @objc func dismissKeyboard() {

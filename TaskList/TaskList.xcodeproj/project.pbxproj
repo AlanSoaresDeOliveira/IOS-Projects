@@ -15,6 +15,7 @@
 		E77DA69F253B2FB40041A258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77DA69D253B2FB40041A258 /* LaunchScreen.storyboard */; };
 		E77DA6A8253B30580041A258 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77DA6A7253B30580041A258 /* Task.swift */; };
 		E77DA6AE253B318C0041A258 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77DA6AD253B318C0041A258 /* TaskStore.swift */; };
+		E77DA6B1253B426D0041A258 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77DA6B0253B426D0041A258 /* NewTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E77DA6A0253B2FB40041A258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77DA6A7253B30580041A258 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		E77DA6AD253B318C0041A258 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		E77DA6B0253B426D0041A258 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,7 @@
 			children = (
 				E77DA692253B2FB30041A258 /* AppDelegate.swift */,
 				E77DA694253B2FB30041A258 /* SceneDelegate.swift */,
-				E77DA696253B2FB30041A258 /* ContentView.swift */,
+				E77DA6B4253B43C80041A258 /* Views */,
 				E77DA6AB253B30F70041A258 /* Models */,
 				E77DA698253B2FB40041A258 /* Assets.xcassets */,
 				E77DA69D253B2FB40041A258 /* LaunchScreen.storyboard */,
@@ -87,6 +89,15 @@
 				E77DA6AD253B318C0041A258 /* TaskStore.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E77DA6B4253B43C80041A258 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E77DA696253B2FB30041A258 /* ContentView.swift */,
+				E77DA6B0253B426D0041A258 /* NewTaskView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 			files = (
 				E77DA6AE253B318C0041A258 /* TaskStore.swift in Sources */,
 				E77DA6A8253B30580041A258 /* Task.swift in Sources */,
+				E77DA6B1253B426D0041A258 /* NewTaskView.swift in Sources */,
 				E77DA693253B2FB30041A258 /* AppDelegate.swift in Sources */,
 				E77DA695253B2FB30041A258 /* SceneDelegate.swift in Sources */,
 				E77DA697253B2FB30041A258 /* ContentView.swift in Sources */,
@@ -302,8 +314,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskList/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TaskList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alansoares.TaskList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,8 +337,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskList/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TaskList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,6 +349,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alansoares.TaskList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

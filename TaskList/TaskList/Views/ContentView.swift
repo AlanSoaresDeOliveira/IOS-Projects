@@ -14,12 +14,21 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(taskStore.tasks) { task in
-                Text(task.name)
-                
+            List {
+                ForEach(taskStore.tasks) { task in
+                    RowView(task: task)
+                    
+                }
+                .onMove{ surceIndices, destinationIndex in
+                    self.taskStore.tasks.move(fromOffsets: surceIndices, toOffset: destinationIndex)
+                }
+                .onDelete { indexSet in
+                    self.taskStore.tasks.remove(atOffsets: indexSet)
+                }
             }
             .navigationBarTitle("Tasks")
             .navigationBarItems(
+                leading: EditButton(),
                 trailing:
                     Button(action: { self.modalIsPresented = true}) {
                         Image(systemName: "plus")
@@ -38,3 +47,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView(taskStore: TaskStore())
     }
 }
+
+

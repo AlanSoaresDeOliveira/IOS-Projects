@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7CC71092524F2C800D6FE8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC71082524F2C800D6FE8B /* AppDelegate.swift */; };
-		E7CC710B2524F2C800D6FE8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC710A2524F2C800D6FE8B /* SceneDelegate.swift */; };
-		E7CC710D2524F2C800D6FE8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC710C2524F2C800D6FE8B /* ContentView.swift */; };
-		E7CC710F2524F2C900D6FE8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CC710E2524F2C900D6FE8B /* Assets.xcassets */; };
-		E7CC71122524F2C900D6FE8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CC71112524F2C900D6FE8B /* Preview Assets.xcassets */; };
-		E7CC71152524F2C900D6FE8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CC71132524F2C900D6FE8B /* LaunchScreen.storyboard */; };
+		AD4BDE4A22D878BA005BA4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4BDE4922D878BA005BA4CC /* AppDelegate.swift */; };
+		AD4BDE4C22D878BA005BA4CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4BDE4B22D878BA005BA4CC /* SceneDelegate.swift */; };
+		AD4BDE4E22D878BA005BA4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4BDE4D22D878BA005BA4CC /* ViewController.swift */; };
+		AD4BDE5122D878BA005BA4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4BDE4F22D878BA005BA4CC /* Main.storyboard */; };
+		AD4BDE5322D878BC005BA4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4BDE5222D878BC005BA4CC /* Assets.xcassets */; };
+		AD4BDE5622D878BC005BA4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4BDE5422D878BC005BA4CC /* LaunchScreen.storyboard */; };
+		AD7631B622F9851900C6E71B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD7631B522F9851900C6E71B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E7CC71052524F2C800D6FE8B /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7CC71082524F2C800D6FE8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7CC710A2524F2C800D6FE8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E7CC710C2524F2C800D6FE8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E7CC710E2524F2C900D6FE8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E7CC71112524F2C900D6FE8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E7CC71142524F2C900D6FE8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E7CC71162524F2C900D6FE8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4BDE4622D878BA005BA4CC /* Quizzler-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quizzler-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4BDE4922D878BA005BA4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD4BDE4B22D878BA005BA4CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD4BDE4D22D878BA005BA4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD4BDE5022D878BA005BA4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD4BDE5222D878BC005BA4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD4BDE5522D878BC005BA4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD4BDE5722D878BC005BA4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7631B522F9851900C6E71B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E7CC71022524F2C800D6FE8B /* Frameworks */ = {
+		AD4BDE4322D878BA005BA4CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,79 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E7CC70FC2524F2C800D6FE8B = {
+		AD4BDE3D22D878BA005BA4CC = {
 			isa = PBXGroup;
 			children = (
-				E7CC71072524F2C800D6FE8B /* Calculator */,
-				E7CC71062524F2C800D6FE8B /* Products */,
+				AD7631B522F9851900C6E71B /* README.md */,
+				AD4BDE4822D878BA005BA4CC /* Quizzler-iOS13 */,
+				AD4BDE4722D878BA005BA4CC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E7CC71062524F2C800D6FE8B /* Products */ = {
+		AD4BDE4722D878BA005BA4CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7CC71052524F2C800D6FE8B /* Calculator.app */,
+				AD4BDE4622D878BA005BA4CC /* Quizzler-iOS13.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E7CC71072524F2C800D6FE8B /* Calculator */ = {
+		AD4BDE4822D878BA005BA4CC /* Quizzler-iOS13 */ = {
 			isa = PBXGroup;
 			children = (
-				E7CC71082524F2C800D6FE8B /* AppDelegate.swift */,
-				E7CC710A2524F2C800D6FE8B /* SceneDelegate.swift */,
-				E7CC710C2524F2C800D6FE8B /* ContentView.swift */,
-				E7CC710E2524F2C900D6FE8B /* Assets.xcassets */,
-				E7CC71132524F2C900D6FE8B /* LaunchScreen.storyboard */,
-				E7CC71162524F2C900D6FE8B /* Info.plist */,
-				E7CC71102524F2C900D6FE8B /* Preview Content */,
+				AD4BDE4922D878BA005BA4CC /* AppDelegate.swift */,
+				AD4BDE4B22D878BA005BA4CC /* SceneDelegate.swift */,
+				AD4BDE4F22D878BA005BA4CC /* Main.storyboard */,
+				AD4BDE4D22D878BA005BA4CC /* ViewController.swift */,
+				AD4BDE5222D878BC005BA4CC /* Assets.xcassets */,
+				AD4BDE5422D878BC005BA4CC /* LaunchScreen.storyboard */,
+				AD4BDE5722D878BC005BA4CC /* Info.plist */,
 			);
-			path = Calculator;
-			sourceTree = "<group>";
-		};
-		E7CC71102524F2C900D6FE8B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E7CC71112524F2C900D6FE8B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = "Quizzler-iOS13";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E7CC71042524F2C800D6FE8B /* Calculator */ = {
+		AD4BDE4522D878BA005BA4CC /* Quizzler-iOS13 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7CC71192524F2C900D6FE8B /* Build configuration list for PBXNativeTarget "Calculator" */;
+			buildConfigurationList = AD4BDE5A22D878BC005BA4CC /* Build configuration list for PBXNativeTarget "Quizzler-iOS13" */;
 			buildPhases = (
-				E7CC71012524F2C800D6FE8B /* Sources */,
-				E7CC71022524F2C800D6FE8B /* Frameworks */,
-				E7CC71032524F2C800D6FE8B /* Resources */,
+				AD4BDE4222D878BA005BA4CC /* Sources */,
+				AD4BDE4322D878BA005BA4CC /* Frameworks */,
+				AD4BDE4422D878BA005BA4CC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Calculator;
-			productName = Calculator;
-			productReference = E7CC71052524F2C800D6FE8B /* Calculator.app */;
+			name = "Quizzler-iOS13";
+			productName = "Quizzler-iOS13";
+			productReference = AD4BDE4622D878BA005BA4CC /* Quizzler-iOS13.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E7CC70FD2524F2C800D6FE8B /* Project object */ = {
+		AD4BDE3E22D878BA005BA4CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = "The App Brewery";
 				TargetAttributes = {
-					E7CC71042524F2C800D6FE8B = {
-						CreatedOnToolsVersion = 12.0.1;
+					AD4BDE4522D878BA005BA4CC = {
+						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = E7CC71002524F2C800D6FE8B /* Build configuration list for PBXProject "Calculator" */;
+			buildConfigurationList = AD4BDE4122D878BA005BA4CC /* Build configuration list for PBXProject "Quizzler-iOS13" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,47 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = E7CC70FC2524F2C800D6FE8B;
-			productRefGroup = E7CC71062524F2C800D6FE8B /* Products */;
+			mainGroup = AD4BDE3D22D878BA005BA4CC;
+			productRefGroup = AD4BDE4722D878BA005BA4CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E7CC71042524F2C800D6FE8B /* Calculator */,
+				AD4BDE4522D878BA005BA4CC /* Quizzler-iOS13 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E7CC71032524F2C800D6FE8B /* Resources */ = {
+		AD4BDE4422D878BA005BA4CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7CC71152524F2C900D6FE8B /* LaunchScreen.storyboard in Resources */,
-				E7CC71122524F2C900D6FE8B /* Preview Assets.xcassets in Resources */,
-				E7CC710F2524F2C900D6FE8B /* Assets.xcassets in Resources */,
+				AD4BDE5622D878BC005BA4CC /* LaunchScreen.storyboard in Resources */,
+				AD4BDE5322D878BC005BA4CC /* Assets.xcassets in Resources */,
+				AD7631B622F9851900C6E71B /* README.md in Resources */,
+				AD4BDE5122D878BA005BA4CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E7CC71012524F2C800D6FE8B /* Sources */ = {
+		AD4BDE4222D878BA005BA4CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7CC71092524F2C800D6FE8B /* AppDelegate.swift in Sources */,
-				E7CC710B2524F2C800D6FE8B /* SceneDelegate.swift in Sources */,
-				E7CC710D2524F2C800D6FE8B /* ContentView.swift in Sources */,
+				AD4BDE4E22D878BA005BA4CC /* ViewController.swift in Sources */,
+				AD4BDE4A22D878BA005BA4CC /* AppDelegate.swift in Sources */,
+				AD4BDE4C22D878BA005BA4CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E7CC71132524F2C900D6FE8B /* LaunchScreen.storyboard */ = {
+		AD4BDE4F22D878BA005BA4CC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E7CC71142524F2C900D6FE8B /* Base */,
+				AD4BDE5022D878BA005BA4CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD4BDE5422D878BC005BA4CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4BDE5522D878BC005BA4CC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E7CC71172524F2C900D6FE8B /* Debug */ = {
+		AD4BDE5822D878BC005BA4CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -226,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		E7CC71182524F2C900D6FE8B /* Release */ = {
+		AD4BDE5922D878BC005BA4CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -281,42 +286,36 @@
 			};
 			name = Release;
 		};
-		E7CC711A2524F2C900D6FE8B /* Debug */ = {
+		AD4BDE5B22D878BC005BA4CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = HD777GC7QY;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "Quizzler-iOS13/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alansoares.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alansoares.Quizzler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E7CC711B2524F2C900D6FE8B /* Release */ = {
+		AD4BDE5C22D878BC005BA4CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = HD777GC7QY;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "Quizzler-iOS13/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alansoares.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alansoares.Quizzler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E7CC71002524F2C800D6FE8B /* Build configuration list for PBXProject "Calculator" */ = {
+		AD4BDE4122D878BA005BA4CC /* Build configuration list for PBXProject "Quizzler-iOS13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7CC71172524F2C900D6FE8B /* Debug */,
-				E7CC71182524F2C900D6FE8B /* Release */,
+				AD4BDE5822D878BC005BA4CC /* Debug */,
+				AD4BDE5922D878BC005BA4CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7CC71192524F2C900D6FE8B /* Build configuration list for PBXNativeTarget "Calculator" */ = {
+		AD4BDE5A22D878BC005BA4CC /* Build configuration list for PBXNativeTarget "Quizzler-iOS13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7CC711A2524F2C900D6FE8B /* Debug */,
-				E7CC711B2524F2C900D6FE8B /* Release */,
+				AD4BDE5B22D878BC005BA4CC /* Debug */,
+				AD4BDE5C22D878BC005BA4CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E7CC70FD2524F2C800D6FE8B /* Project object */;
+	rootObject = AD4BDE3E22D878BA005BA4CC /* Project object */;
 }

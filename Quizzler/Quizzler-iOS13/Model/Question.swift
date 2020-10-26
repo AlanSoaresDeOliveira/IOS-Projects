@@ -13,8 +13,8 @@ struct Question {
     var answer: String
     
     init(q: String, a: String) {
-        text = q
-        answer = a
+        self.text = q
+        self.answer = a
     }
 }
 

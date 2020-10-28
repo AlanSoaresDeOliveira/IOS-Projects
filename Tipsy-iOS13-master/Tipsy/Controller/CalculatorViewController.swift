@@ -17,6 +17,7 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var splitNumberLabel: UILabel!
     
     var tip = 0.10
+    var numberLabel = 2
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,11 +45,14 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
+        numberLabel = Int(sender.value)
+        splitNumberLabel.text = String(
+            format: "%.0f", (sender.value))
         
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
-        print(tip)
+        print(numberLabel)
     }
     
     

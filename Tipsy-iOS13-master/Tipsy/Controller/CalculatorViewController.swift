@@ -18,6 +18,8 @@ class CalculatorViewController: UIViewController {
     
     var tip = 0.10
     var numberLabel = 2
+    var billValue = 0.00
+    var totalPerPerson = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +27,7 @@ class CalculatorViewController: UIViewController {
     }
 
     @IBAction func tipChanged(_ sender: UIButton) {
+        billTextField.endEditing(true)
         zeroPcButton.isSelected = false
         tenPcButton.isSelected = false
         twentyPcButton.isSelected = false
@@ -45,14 +48,40 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
+        billTextField.endEditing(true)
         numberLabel = Int(sender.value)
         splitNumberLabel.text = String(
             format: "%.0f", (sender.value))
         
     }
     
+    @IBAction func totalAmount(_ sender: UITextField) {
+//        print(type(of: sender.text))
+//        let amount = Double(sender.text!)!
+//        billValue = amount
+    }
     @IBAction func calculatePressed(_ sender: UIButton) {
-        print(numberLabel)
+        let bill = billTextField.text!
+        
+        if bill != "" {
+            billValue = Double(bill)!
+            let valuePerPerson = ((billValue + (billValue * tip)) / Double(numberLabel))
+            totalPerPerson = String(format: "%.2f", valuePerPerson)
+            print(totalPerPerson)
+            self.performSegue(withIdentifier: "goToResult", sender: self)
+        }
+       
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "goToResult" {
+            let destinationVC = segue.destination as! ResultsViewController
+            let tipPercent = String(format: "%.0f", (tip * 100))
+            destinationVC.tipValue = totalPerPerson
+            destinationVC.porcentLabel = tipPercent
+            destinationVC.totalPeople = String(numberLabel)
+        }
     }
     
     

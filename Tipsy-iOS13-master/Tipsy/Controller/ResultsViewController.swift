@@ -9,16 +9,25 @@
 import UIKit
 
 class ResultsViewController: UIViewController {
-
+    
+    var tipValue: String!
+    var totalPeople: String!
+    var porcentLabel: String!
+    
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var settingsLabel: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(type(of: totalPeople!))
+        totalLabel.text = tipValue
+        settingsLabel.text = "Dividido por \(String(totalPeople)) pessoas, com \(String(porcentLabel))% de gorjeta."
+        
     }
     
     @IBAction func recalculatedPressed(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     /*

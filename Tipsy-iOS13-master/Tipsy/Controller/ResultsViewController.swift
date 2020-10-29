@@ -20,7 +20,6 @@ class ResultsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(type(of: totalPeople!))
         totalLabel.text = tipValue
         settingsLabel.text = "Dividido por \(String(totalPeople)) pessoas, com \(String(porcentLabel))% de gorjeta."
         

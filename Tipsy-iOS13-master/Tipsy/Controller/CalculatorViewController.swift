@@ -18,7 +18,7 @@ class CalculatorViewController: UIViewController {
     
     var tip = 0.10
     var numberLabel = 2
-    var billValue = 0.00
+    var billValue:Double = 0.0
     var totalPerPerson = ""
     
     override func viewDidLoad() {
@@ -55,21 +55,18 @@ class CalculatorViewController: UIViewController {
         
     }
     
-    @IBAction func totalAmount(_ sender: UITextField) {
-//        print(type(of: sender.text))
-//        let amount = Double(sender.text!)!
-//        billValue = amount
-    }
+
     @IBAction func calculatePressed(_ sender: UIButton) {
         let bill = billTextField.text!
         
         if bill != "" {
-            billValue = Double(bill)!
+            let value = Double(bill)!
+            billValue = value
             let valuePerPerson = ((billValue + (billValue * tip)) / Double(numberLabel))
             totalPerPerson = String(format: "%.2f", valuePerPerson)
-            print(totalPerPerson)
             self.performSegue(withIdentifier: "goToResult", sender: self)
         }
+        print(type(of: bill))
        
     }
     

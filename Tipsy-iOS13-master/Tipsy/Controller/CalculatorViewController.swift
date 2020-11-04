@@ -58,9 +58,11 @@ class CalculatorViewController: UIViewController {
 
     @IBAction func calculatePressed(_ sender: UIButton) {
         let bill = billTextField.text!
-        
+        print(bill)
+//        let bill = "250.50"
         if bill != "" {
-            let value = Double(bill)!
+            let value = (bill as NSString).doubleValue
+//            let value = Double(bill)
             billValue = value
             let valuePerPerson = ((billValue + (billValue * tip)) / Double(numberLabel))
             totalPerPerson = String(format: "%.2f", valuePerPerson)

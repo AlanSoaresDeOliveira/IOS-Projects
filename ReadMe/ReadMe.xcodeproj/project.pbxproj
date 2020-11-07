@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		E76675602556E9CB008458FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766755F2556E9CB008458FB /* AppDelegate.swift */; };
 		E76675622556E9CB008458FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76675612556E9CB008458FB /* SceneDelegate.swift */; };
-		E76675642556E9CB008458FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76675632556E9CB008458FB /* ViewController.swift */; };
+		E76675642556E9CB008458FB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76675632556E9CB008458FB /* LibraryViewController.swift */; };
 		E76675672556E9CB008458FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76675652556E9CB008458FB /* Main.storyboard */; };
 		E76675692556E9CB008458FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76675682556E9CB008458FB /* Assets.xcassets */; };
 		E766756C2556E9CB008458FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E766756A2556E9CB008458FB /* LaunchScreen.storyboard */; };
+		E76675752556EAE3008458FB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76675742556EAE3008458FB /* Book.swift */; };
+		E76675792556EF73008458FB /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76675782556EF73008458FB /* Library.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E766755C2556E9CB008458FB /* ReadMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E766755F2556E9CB008458FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E76675612556E9CB008458FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E76675632556E9CB008458FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E76675632556E9CB008458FB /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		E76675662556E9CB008458FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E76675682556E9CB008458FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E766756B2556E9CB008458FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E766756D2556E9CB008458FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76675742556EAE3008458FB /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		E76675782556EF73008458FB /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				E766755F2556E9CB008458FB /* AppDelegate.swift */,
 				E76675612556E9CB008458FB /* SceneDelegate.swift */,
-				E76675632556E9CB008458FB /* ViewController.swift */,
+				E76675632556E9CB008458FB /* LibraryViewController.swift */,
+				E76675742556EAE3008458FB /* Book.swift */,
+				E76675782556EF73008458FB /* Library.swift */,
 				E76675652556E9CB008458FB /* Main.storyboard */,
 				E76675682556E9CB008458FB /* Assets.xcassets */,
 				E766756A2556E9CB008458FB /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E76675642556E9CB008458FB /* ViewController.swift in Sources */,
+				E76675752556EAE3008458FB /* Book.swift in Sources */,
+				E76675642556E9CB008458FB /* LibraryViewController.swift in Sources */,
+				E76675792556EF73008458FB /* Library.swift in Sources */,
 				E76675602556E9CB008458FB /* AppDelegate.swift in Sources */,
 				E76675622556E9CB008458FB /* SceneDelegate.swift in Sources */,
 			);

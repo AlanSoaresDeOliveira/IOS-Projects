@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E725A6852558CFA800084CAB /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E725A6842558CFA800084CAB /* BookCell.swift */; };
 		E76675602556E9CB008458FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766755F2556E9CB008458FB /* AppDelegate.swift */; };
 		E76675622556E9CB008458FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76675612556E9CB008458FB /* SceneDelegate.swift */; };
 		E76675642556E9CB008458FB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76675632556E9CB008458FB /* LibraryViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E725A6842558CFA800084CAB /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		E766755C2556E9CB008458FB /* ReadMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E766755F2556E9CB008458FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E76675612556E9CB008458FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		E76675532556E9CB008458FB = {
 			isa = PBXGroup;
 			children = (
+				E725A6842558CFA800084CAB /* BookCell.swift */,
 				E766755E2556E9CB008458FB /* ReadMe */,
 				E766755D2556E9CB008458FB /* Products */,
 			);
@@ -149,6 +152,7 @@
 				E76675752556EAE3008458FB /* Book.swift in Sources */,
 				E7C2946D25583186005A1645 /* Library.swift in Sources */,
 				E76675642556E9CB008458FB /* LibraryViewController.swift in Sources */,
+				E725A6852558CFA800084CAB /* BookCell.swift in Sources */,
 				E7C2946A25582844005A1645 /* DetailViewController.swift in Sources */,
 				E76675602556E9CB008458FB /* AppDelegate.swift in Sources */,
 				E76675622556E9CB008458FB /* SceneDelegate.swift in Sources */,

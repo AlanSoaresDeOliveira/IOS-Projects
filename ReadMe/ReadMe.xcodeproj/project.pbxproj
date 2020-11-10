@@ -18,6 +18,7 @@
 		E76675752556EAE3008458FB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76675742556EAE3008458FB /* Book.swift */; };
 		E7C2946A25582844005A1645 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2946925582844005A1645 /* DetailViewController.swift */; };
 		E7C2946D25583186005A1645 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2946C25583186005A1645 /* Library.swift */; };
+		E7E2D0F8255B04E800EA49AF /* LibraryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7E2D0F7255B04E800EA49AF /* LibraryHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E76675742556EAE3008458FB /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		E7C2946925582844005A1645 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E7C2946C25583186005A1645 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Library.swift; path = "../../../../Downloads/Swift/ios-user-interfaces-video/03 Table Views/sources/P01E06 Reload Data materials/Library.swift"; sourceTree = "<group>"; };
+		E7E2D0F7255B04E800EA49AF /* LibraryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				E766755F2556E9CB008458FB /* AppDelegate.swift */,
 				E76675612556E9CB008458FB /* SceneDelegate.swift */,
 				E76675632556E9CB008458FB /* LibraryViewController.swift */,
+				E7E2D0F7255B04E800EA49AF /* LibraryHeaderView.xib */,
 				E7C2946925582844005A1645 /* DetailViewController.swift */,
 				E74FE9D1255ACA540033C4BF /* NewBookViewController.swift */,
 				E76675742556EAE3008458FB /* Book.swift */,
@@ -142,6 +145,7 @@
 				E766756C2556E9CB008458FB /* LaunchScreen.storyboard in Resources */,
 				E76675692556E9CB008458FB /* Assets.xcassets in Resources */,
 				E76675672556E9CB008458FB /* Main.storyboard in Resources */,
+				E7E2D0F8255B04E800EA49AF /* LibraryHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

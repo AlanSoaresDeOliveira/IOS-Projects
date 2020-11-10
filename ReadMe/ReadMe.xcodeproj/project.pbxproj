@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E725A6852558CFA800084CAB /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E725A6842558CFA800084CAB /* BookCell.swift */; };
+		E74FE9D2255ACA540033C4BF /* NewBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74FE9D1255ACA540033C4BF /* NewBookViewController.swift */; };
 		E76675602556E9CB008458FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766755F2556E9CB008458FB /* AppDelegate.swift */; };
 		E76675622556E9CB008458FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76675612556E9CB008458FB /* SceneDelegate.swift */; };
 		E76675642556E9CB008458FB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76675632556E9CB008458FB /* LibraryViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		E725A6842558CFA800084CAB /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		E74FE9D1255ACA540033C4BF /* NewBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookViewController.swift; sourceTree = "<group>"; };
 		E766755C2556E9CB008458FB /* ReadMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E766755F2556E9CB008458FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E76675612556E9CB008458FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				E76675612556E9CB008458FB /* SceneDelegate.swift */,
 				E76675632556E9CB008458FB /* LibraryViewController.swift */,
 				E7C2946925582844005A1645 /* DetailViewController.swift */,
+				E74FE9D1255ACA540033C4BF /* NewBookViewController.swift */,
 				E76675742556EAE3008458FB /* Book.swift */,
 				E7C2946C25583186005A1645 /* Library.swift */,
 				E76675652556E9CB008458FB /* Main.storyboard */,
@@ -153,6 +156,7 @@
 				E7C2946D25583186005A1645 /* Library.swift in Sources */,
 				E76675642556E9CB008458FB /* LibraryViewController.swift in Sources */,
 				E725A6852558CFA800084CAB /* BookCell.swift in Sources */,
+				E74FE9D2255ACA540033C4BF /* NewBookViewController.swift in Sources */,
 				E7C2946A25582844005A1645 /* DetailViewController.swift in Sources */,
 				E76675602556E9CB008458FB /* AppDelegate.swift in Sources */,
 				E76675622556E9CB008458FB /* SceneDelegate.swift in Sources */,
